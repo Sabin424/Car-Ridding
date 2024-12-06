@@ -1,0 +1,7 @@
+services:
+  car_riding_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true  # Keep the container's stdin open (interactive)
+    tty: true         # Allocate a pseudo-TTY
